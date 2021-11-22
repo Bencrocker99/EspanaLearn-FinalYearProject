@@ -1,0 +1,5 @@
+src/com/javafx-sdk-11.0.2/**
+out/**
+out/production/final_year_project/com
+.idea/
+*.iml
