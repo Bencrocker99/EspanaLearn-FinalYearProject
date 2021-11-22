@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.VocabularyAndGrammarHandler">
+   <children>
+      <ScrollPane fx:id="scrollPane" layoutX="47.0" layoutY="120.0" prefHeight="626.0" prefWidth="1386.0">
+         <content>
+            <AnchorPane fx:id="scrollAnchorPane" prefHeight="528.0" prefWidth="571.0" />
+         </content>
+      </ScrollPane>
+      <Button fx:id="vocabularyReturnToMenuButton" layoutX="393.0" layoutY="762.0" mnemonicParsing="false" onAction="#vocabularyReturnButtonClicked" prefHeight="80.0" prefWidth="737.0" text="Return to menu">
+        <font>
+         <Font name="Arial Bold" size="35.0" />
+      </font>
+   </Button>
+      <Button fx:id="vocabularyButton" layoutX="411.5" layoutY="25.0" mnemonicParsing="false" onAction="#vocabularyButtonClicked" prefHeight="78.0" prefWidth="300.0" text="View Vocabulary">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font></Button>
+      <Button fx:id="conjugationsButton" layoutX="811.5" layoutY="25.0" mnemonicParsing="false" onAction="#conjugationsButtonClicked" prefHeight="78.0" prefWidth="300.0" text="View Verb Conjugations">
+         <font>
+            <Font name="Arial Bold" size="20.0" />
+         </font></Button>
+   </children>
+</AnchorPane>

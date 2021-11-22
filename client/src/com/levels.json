@@ -1,0 +1,48 @@
+{
+
+  "levels": [
+    {
+      "levelNumber": "1",
+      "endingScore": "2",
+      "possibleStructures": [["basicInterjections"]],
+      "orderedProbabilities": [100],
+      "possibleTenses": [["present"]],
+      "includePluralsChance": "0"
+    },
+    {
+      "levelNumber": "2",
+      "endingScore": "7",
+      "possibleStructures": [["permanentBeingVerbs", "basicAdjectives"], ["continuationDeterminants","basicNouns", "basicAdjectives"], ["introductoryDeterminants","basicNouns", "basicAdjectives"]],
+      "orderedProbabilities": [50, 25, 25],
+      "possibleTenses": [["present"], ["present"], ["present"]],
+      "includePluralsChance": "0"
+    },
+    {
+      "levelNumber": "3",
+      "endingScore": "14",
+      "possibleStructures": [["basicQuestions"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "continuationDeterminants", "buildingNouns"], ["continuationDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns"], ["continuationDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "continuationDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "basicAdjectives", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "basicAdjectives", "travellingVerbs", "travellingPrepositions", "continuationDeterminants", "buildingNouns"], ["continuationDeterminants", "basicNouns", "basicAdjectives", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns"], ["continuationDeterminants", "basicNouns", "basicAdjectives", "travellingVerbs", "travellingPrepositions", "continuationDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "buildingAdjectives"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "continuationDeterminants", "buildingNouns", "buildingAdjectives"], ["continuationDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "buildingAdjectives"], ["continuationDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "continuationDeterminants", "buildingNouns", "buildingAdjectives"]
+      ],
+      "orderedProbabilities": [15, 15, 10, 5, 5, 5, 5, 5, 5, 10, 5, 5, 5, 5],
+      "possibleTenses": [["present"], ["present"], ["present"], ["present"], ["present"], ["present"], ["present"], ["present"], ["present"], ["present"], ["present"], ["present"], ["present"], ["present"]],
+      "includePluralsChance": "50"
+    },
+    {
+      "levelNumber": "4",
+      "endingScore": "20",
+      "possibleStructures": [["introductoryDeterminants", "basicNouns", "permanentBeingVerbs", "2parameterRelativePositions", "introductoryDeterminants", "buildingNouns", "basicConjunctions", "introductoryDeterminants", "buildingNouns", "buildingAdjectives"], ["introductoryDeterminants", "basicNouns", "permanentBeingVerbs", "2parameterRelativePositions", "introductoryDeterminants", "buildingNouns", "buildingAdjectives","basicConjunctions", "introductoryDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "permanentBeingVerbs", "2parameterRelativePositions", "introductoryDeterminants", "buildingNouns", "basicConjunctions", "introductoryDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "basicAdjectives", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "relativePositions", "continuationDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "relativePositions", "continuationDeterminants", "buildingNouns", "buildingAdjectives"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "buildingAdjectives", "relativePositions", "continuationDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "relativePositions", "continuationDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "permanentBeingVerbs", "basicQuantifiers", "basicAdjectives", "basicConjunctions", "basicAdjectives"]],
+      "orderedProbabilities": [5,5,10,10,10,10,15,35],
+      "possibleTenses": [["preterite"],["preterite"],["preterite"],["preterite"], ["preterite"], ["preterite"], ["preterite"], ["preterite"]],
+      "includePluralsChance": "70"
+    },
+    {
+      "levelNumber": "5",
+      "endingScore": "99999",
+      "possibleStructures": [["introductoryDeterminants", "basicNouns", "permanentBeingVerbs", "2parameterRelativePositions", "introductoryDeterminants", "buildingNouns", "basicConjunctions", "introductoryDeterminants", "buildingNouns", "buildingAdjectives"], ["introductoryDeterminants", "basicNouns", "permanentBeingVerbs", "2parameterRelativePositions", "introductoryDeterminants", "buildingNouns", "buildingAdjectives","basicConjunctions", "introductoryDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "permanentBeingVerbs", "2parameterRelativePositions", "introductoryDeterminants", "buildingNouns", "basicConjunctions", "introductoryDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "basicAdjectives", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "relativePositions", "continuationDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "relativePositions", "continuationDeterminants", "buildingNouns", "buildingAdjectives"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "buildingAdjectives", "relativePositions", "continuationDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "travellingVerbs", "travellingPrepositions", "introductoryDeterminants", "buildingNouns", "relativePositions", "continuationDeterminants", "buildingNouns"], ["introductoryDeterminants", "basicNouns", "permanentBeingVerbs", "basicQuantifiers", "basicAdjectives", "basicConjunctions", "basicAdjectives"]],
+      "orderedProbabilities": [5,5,10,10,10,10,15,35],
+      "possibleTenses": [["preterite"],["preterite"],["preterite"],["preterite"], ["preterite"], ["preterite"], ["preterite"], ["preterite"]],
+      "includePluralsChance": "70"
+    }
+
+
+  ]
+}

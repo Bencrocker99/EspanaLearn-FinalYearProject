@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<AnchorPane id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" style="-fx-border-color: black;" stylesheets="@../../src/resources/formatting.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.MainMenuHandler">
+   <children>
+      <Button fx:id="loginButton" layoutX="661.5" layoutY="312.0" mnemonicParsing="false" onAction="#loginButtonClicked" prefHeight="80.0" prefWidth="200.0" text="Login">
+         <font>
+            <Font name="Arial Bold" size="35.0" />
+         </font></Button>
+       <ImageView fx:id="mainTitle" fitHeight="103.0" fitWidth="1000.0" layoutX="351.5" layoutY="25.0" pickOnBounds="true" preserveRatio="true" >
+           <image>
+               <Image url="@../resources/maintitle.png" />
+           </image></ImageView>
+       <Button fx:id="quitButton" layoutX="561.5" layoutY="707.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#quitButtonClick" prefHeight="80.0" prefWidth="400.0" text="Quit" GridPane.columnIndex="2" GridPane.rowIndex="6">
+           <font>
+               <Font name="Arial Bold" size="40.0" />
+           </font>
+           <opaqueInsets>
+               <Insets />
+           </opaqueInsets>
+       </Button>
+       <Button fx:id="registerButton" layoutX="561.5" layoutY="533.0" mnemonicParsing="false" onAction="#registerButtonClicked" prefHeight="80.0" prefWidth="400.0" text="Register">
+           <font>
+               <Font name="Arial Bold" size="35.0" />
+           </font></Button>
+      <TextField fx:id="usernameTextfield" layoutX="572.5" layoutY="183.0" prefHeight="37.0" prefWidth="378.0" />
+       <PasswordField fx:id="passwordTextfield" layoutX="572.5" layoutY="238.0" prefHeight="37.0" prefWidth="378.0" />
+      <Label layoutX="400.0" layoutY="182.0" prefHeight="40.0" prefWidth="145.0" text="Username:">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+       <Label layoutX="407.0" layoutY="238.0" prefHeight="40.0" prefWidth="145.0" text="Password:">
+           <font>
+               <Font size="28.0" />
+           </font>
+       </Label>
+      <Label alignment="CENTER" layoutX="561.5" layoutY="466.0" prefHeight="75.0" prefWidth="400.0" text="New User?" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label fx:id="errorLabel" layoutX="486.0" layoutY="273.0" prefHeight="38.0" prefWidth="378.0" text="Error:" textFill="#e53232" visible="false" />
+   </children>
+</AnchorPane>

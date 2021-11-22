@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.BossMode2Handler">
+
+    <AnchorPane fx:id="newLevelPane" layoutX="568.0" layoutY="196.0" prefHeight="167.0" prefWidth="386.0" style="-fx-border-color: black; -fx-background-color: white;" visible="true">
+        <children>
+            <Label fx:id="newLevelLabel" layoutX="21.0" layoutY="14.0" prefHeight="79.0" prefWidth="344.0" text="When you click begin, you will have 20 seconds to type an answer for both questions and then click submit." textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+            </Label>
+            <Button fx:id="startButton" layoutX="81.0" layoutY="96.0" mnemonicParsing="false" onAction="#startButtonClicked" prefHeight="53.0" prefWidth="207.0" text="Begin">
+                <font>
+                    <Font name="Arial Bold" size="24.0" />
+                </font></Button>
+            <Button fx:id="okayButton" layoutX="81.0" layoutY="96.0" mnemonicParsing="false" onAction="#okayButtonClicked" prefHeight="53.0" prefWidth="207.0" text="Okay" visible="false">
+                <font>
+                    <Font size="24.0" />
+                </font></Button>
+        </children>
+    </AnchorPane>
+   <ImageView fx:id="timerImage" fitHeight="96.0" fitWidth="54.0" layoutX="1455.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" visible="false">
+      <image>
+         <Image   url="@../resources/timer.png" />
+      </image>
+   </ImageView>
+   <Label fx:id="remainingTime" layoutX="1367.0" layoutY="-3.0" prefHeight="118.0" prefWidth="88.0" text="20" visible="false">
+      <font>
+         <Font size="68.0" />
+      </font>
+   </Label>
+    <Button fx:id="currentQuestion1" layoutX="114.0" layoutY="72.0" mnemonicParsing="false" prefHeight="97.0" prefWidth="1166.0" visible="false">
+    <font>
+        <Font size="21.0" />
+    </font>
+    </Button>
+   <TextField fx:id="userInput1" layoutX="114.0" layoutY="170.0" prefHeight="79.0" prefWidth="1166.0" visible="false" />
+    <Button fx:id="currentQuestion2" layoutX="114.0" layoutY="363.0" mnemonicParsing="false" prefHeight="97.0" prefWidth="1166.0" visible="false">
+    <font>
+        <Font size="21.0" />
+    </font>
+    </Button>
+    <TextField fx:id="userInput2" layoutX="114.0" layoutY="461.0" prefHeight="79.0" prefWidth="1166.0" visible="false" />
+    <Button fx:id="accent1Button" layoutX="400.0" layoutY="280.0" mnemonicParsing="false" onAction="#accent1ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="á" visible="false" />
+    <Button fx:id="accent2Button" layoutX="500.0" layoutY="280.0" mnemonicParsing="false" onAction="#accent2ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="é" visible="false" />
+    <Button fx:id="accent3Button" layoutX="600.0" layoutY="280.0" mnemonicParsing="false" onAction="#accent3ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="í" visible="false" />
+    <Button fx:id="accent4Button" layoutX="700.0" layoutY="280.0" mnemonicParsing="false" onAction="#accent4ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="ó" visible="false" />
+    <Button fx:id="accent5Button" layoutX="800.0" layoutY="280.0" mnemonicParsing="false" onAction="#accent5ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="ú" visible="false" />
+    <Button fx:id="accent6Button" layoutX="900.0" layoutY="280.0" mnemonicParsing="false" onAction="#accent6ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="ü" visible="false" />
+    <Button fx:id="accent7Button" layoutX="1000.0" layoutY="280.0" mnemonicParsing="false" onAction="#accent7ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="ñ" visible="false" />
+    <Button fx:id="accent8Button" layoutX="400.0" layoutY="578.0" mnemonicParsing="false" onAction="#accent8ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="á" visible="false" />
+    <Button fx:id="accent9Button" layoutX="500.0" layoutY="578.0" mnemonicParsing="false" onAction="#accent9ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="é" visible="false" />
+    <Button fx:id="accent10Button" layoutX="600.0" layoutY="578.0" mnemonicParsing="false" onAction="#accent10ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="í" visible="false" />
+    <Button fx:id="accent11Button" layoutX="700.0" layoutY="578.0" mnemonicParsing="false" onAction="#accent11ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="ó" visible="false" />
+    <Button fx:id="accent12Button" layoutX="800.0" layoutY="578.0" mnemonicParsing="false" onAction="#accent12ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="ú" visible="false" />
+    <Button fx:id="accent13Button" layoutX="900.0" layoutY="578.0" mnemonicParsing="false" onAction="#accent13ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="ü" visible="false" />
+    <Button fx:id="accent14Button" layoutX="1000.0" layoutY="578.0" mnemonicParsing="false" onAction="#accent14ButtonClicked" prefHeight="46.0" prefWidth="46.0" text="ñ" visible="false" />
+   <Button fx:id="submitButton" layoutX="561.5" layoutY="638.0" mnemonicParsing="false" onMouseClicked="#submitButtonClicked" prefHeight="79.0" prefWidth="400.0" text="Submit" visible="true" >
+    <font>
+        <Font name="Arial Bold" size="24.0" />
+    </font>
+   </Button>
+    <Button fx:id="returnToMenuButton" layoutX="393.0" layoutY="732.0" mnemonicParsing="false" onAction="#returnButtonClicked" prefHeight="102.0" prefWidth="737.0" text="Return to menu" visible="true" >
+    <font>
+        <Font name="Arial Bold" size="24.0" />
+    </font>
+    </Button>
+
+</AnchorPane>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" style="-fx-border-color: black;" stylesheets="@../../src/resources/formatting.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.PracticeModeHandler">
+   <children>
+      <Label fx:id="practiceModeSettings" layoutX="233.0" layoutY="23.0" prefHeight="62.0" prefWidth="217.0" text="Practice Mode">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="correctLabel" layoutX="697.0" layoutY="355.0" prefHeight="46.0" prefWidth="407.0" text="Correct    ✔" textAlignment="CENTER" textFill="#45c239" visible="false">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label fx:id="incorrectLabel" alignment="CENTER" layoutX="133.0" layoutY="355.0" prefHeight="46.0" prefWidth="1268.0" text="Incorrect  ❌  An example of a correct answer to .... is: " textAlignment="CENTER" textFill="#dd2424" visible="false">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="questionButton" layoutX="127.0" layoutY="140.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="1268.0" />
+      <Button fx:id="beginPracticeModeButton" layoutX="581.0" layoutY="559.0" mnemonicParsing="false" onAction="#beginPracticeModeButtonClicked" text="Begin" visible="false">
+      <font>
+         <Font size = "22.0" name = "Arial Bold"></Font>
+      </font>
+      </Button>
+      <TextField fx:id="userInput" layoutX="128.0" layoutY="260.0" prefHeight="74.0" prefWidth="1075.0" />
+      <Label fx:id="highestStreakLabel" layoutX="316.0" layoutY="473.0" prefHeight="38.0" prefWidth="223.0" text="Highest Streak (This session): 0" />
+      <Button fx:id="returnToPracticeOptionsButton" layoutX="393.0" layoutY="630.0" mnemonicParsing="false" onAction="#returnToPracticeOptionsButtonClicked" prefHeight="102.0" prefWidth="737.0" text="Return to practice mode options" >
+      <font>
+         <Font size = "22.0" name = "Arial Bold"></Font>
+      </font>
+      </Button>
+      <Button fx:id="practiceReturnToMenuButton" layoutX="393.0" layoutY="732.0" mnemonicParsing="false" onAction="#practiceReturnButtonClicked" prefHeight="102.0" prefWidth="737.0" text="Return to menu" >
+      <font>
+         <Font size = "22.0" name = "Arial Bold"></Font>
+      </font>
+      </Button>
+      <Label fx:id="streak" layoutX="316.0" layoutY="438.0" prefHeight="38.0" prefWidth="320.0" text="Current Streak: 0" />
+      <Label fx:id="currentQuestion" alignment="CENTER" layoutX="128.0" layoutY="56.0" prefHeight="110.0" prefWidth="1268.0" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="submitButton" layoutX="1203.0" layoutY="260.0" mnemonicParsing="false" onAction="#submitButtonClicked" prefHeight="74.0" prefWidth="195.0" text="Submit">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Button>
+      <Button fx:id="questionBackground" layoutX="128.0" layoutY="140.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="1268.0" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="currentLevelLabel" layoutX="316.0" layoutY="521.0" text="Current Level: " />
+      <AnchorPane fx:id="newLevelPane" layoutX="568.0" layoutY="200.0" prefHeight="133.0" prefWidth="394.0" style="-fx-border-color: black; -fx-background-color: white;">
+         <children>
+            <Label fx:id="newLevelLabel" layoutX="21.0" layoutY="14.0" prefHeight="62.0" prefWidth="344.0" text="Load next question." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="continueButton" layoutX="111.0" layoutY="76.0" mnemonicParsing="false" onAction="#continueButtonClicked" prefHeight="26.0" prefWidth="161.0" text="Load" />
+         </children>
+      </AnchorPane>
+
+      <Button fx:id="accent1Button" layoutX="570.0" layoutY="457.0" mnemonicParsing="false" onAction="#accent1ButtonClicked" prefHeight="46.0" prefWidth="48.0" text="á" visible="false" />
+      <Button fx:id="accent2Button" layoutX="650.0" layoutY="457.0" mnemonicParsing="false" onAction="#accent2ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="é" visible="false" />
+      <Button fx:id="accent3Button" layoutX="730.0" layoutY="457.0" mnemonicParsing="false" onAction="#accent3ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="í" visible="false" />
+      <Button fx:id="accent4Button" layoutX="810.0" layoutY="457.0" mnemonicParsing="false" onAction="#accent4ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="ó" visible="false" />
+      <Button fx:id="accent5Button" layoutX="610.0" layoutY="521.0" mnemonicParsing="false" onAction="#accent5ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="ú" visible="false" />
+      <Button fx:id="accent6Button" layoutX="690.0" layoutY="521.0" mnemonicParsing="false" onAction="#accent6ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="ü" visible="false" />
+      <Button fx:id="accent7Button" layoutX="770.0" layoutY="521.0" mnemonicParsing="false" onAction="#accent7ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="ñ" visible="false" />
+   </children>
+</AnchorPane>

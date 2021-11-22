@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.PracticeModeHandler">
+   <children>
+      <Button fx:id="practiceReturnToMenuButton" layoutX="261.0" layoutY="627.0" mnemonicParsing="false" onAction="#practiceReturnButtonClicked" prefHeight="102.0" prefWidth="1014.0" text="Return to Menu" >
+      <font>
+         <Font name="Arial Bold" size="19.0" />
+      </font>
+      </Button>
+      <Button fx:id="beginPracticeModeButton" layoutX="561.5" layoutY="520.0" mnemonicParsing="false" prefWidth="400" prefHeight="80" onAction="#beginPracticeModeButtonClicked" text="Begin" >
+      <font>
+         <Font name="Arial Bold" size="19.0" />
+      </font>
+      </Button>
+      <Label fx:id="practiceModeSettings" layoutX="233.0" layoutY="23.0" prefHeight="62.0" prefWidth="217.0" text="Practice Mode Settings">
+         <font>
+            <Font size="19.0" />
+         </font></Label>
+      <Label fx:id="correctLabel" layoutX="697.0" layoutY="355.0" prefHeight="46.0" prefWidth="407.0" text="Correct    ✔" textAlignment="CENTER" textFill="#45c239" visible="false">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <Label fx:id="incorrectLabel" alignment="CENTER" layoutX="133.0" layoutY="355.0" prefHeight="46.0" prefWidth="1268.0" text="Incorrect  ❌  An example of a correct answer to .... is: " textAlignment="CENTER" textFill="#dd2424" visible="false">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="languageOptionsLabel" layoutX="233.0" layoutY="112.0" text="Language Options" />
+      <CheckBox fx:id="englishToSpanishCheckbox" layoutX="498.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#englishToSpanishSelected" prefHeight="26.0" prefWidth="178.0" text="Only English to Spanish" />
+      <CheckBox fx:id="spanishToEnglishCheckbox" layoutX="677.0" layoutY="155.0" mnemonicParsing="false" onMouseClicked="#spanishToEnglishSelected" prefHeight="18.0" prefWidth="153.0" text="Only Spanish to English" />
+      <CheckBox fx:id="bothLanguagesCheckbox" layoutX="233.0" layoutY="155.0" mnemonicParsing="false" onMouseClicked="#bothLanguagesSelected" prefHeight="18.0" prefWidth="248.0" selected="true" text="Spanish to English and English to Spanish" />
+      <CheckBox fx:id="includeBossCheckbox" layoutX="230.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#includeBossSelected" selected="true" text="Include Boss Levels" />
+      <Label fx:id="bossLevelOptionsLabel" layoutX="230.0" layoutY="212.0" text="Boss Level Options" />
+      <CheckBox fx:id="noBossCheckbox" layoutX="407.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#noBossSelected" text="No Boss Levels" />
+      <CheckBox fx:id="onlyBossCheckbox" layoutX="547.0" layoutY="245.0" mnemonicParsing="false" onMouseClicked="#onlyBossSelected" text="Only Boss Levels" />
+      <CheckBox fx:id="specificLevelCheckbox" layoutX="232.0" layoutY="337.0" mnemonicParsing="false" onMouseClicked="#specificLevelSelected" selected="true" text="Specific level" />
+      <Label fx:id="levelOptionsLabel" layoutX="233.0" layoutY="308.0" text="Level Options" />
+      <CheckBox fx:id="rangeOfLevelsCheckbox" layoutX="372.0" layoutY="337.0" mnemonicParsing="false" onMouseClicked="#rangeOfLevelsSelected" text="Range Of Levels" />
+      <CheckBox fx:id="adaptiveMistakesCheckbox" layoutX="233.0" layoutY="488.0" mnemonicParsing="false" onMouseClicked="#adaptiveMistakesSelected" text="Enable Adapative Mistakes Mode (Questions will be chosen based on previous mistakes on vocabulary, topics and grammar)" visible="false"/>
+      <ChoiceBox fx:id="specificLevelChoice" layoutX="230.0" layoutY="379.0" prefHeight="26.0" prefWidth="107.0" />
+      <ChoiceBox fx:id="minimumLevelChoice" layoutX="230.0" layoutY="379.0" prefHeight="26.0" prefWidth="107.0" visible="false" />
+      <ChoiceBox fx:id="maximumLevelChoice" layoutX="372.0" layoutY="379.0" prefHeight="26.0" prefWidth="107.0" visible="false" />
+      <Label fx:id="minimumLevelLabel" layoutX="230.0" layoutY="414.0" prefHeight="18.0" prefWidth="102.0" text="Minimum Level" visible="false" />
+      <Label fx:id="maximumLevelLabel" layoutX="372.0" layoutY="414.0" text="Maximum Level" visible="false" />
+      <Label fx:id="errorLabel" layoutX="233.0" layoutY="598.0" prefHeight="18.0" prefWidth="1035.0" text="Error Label" textFill="#fd0000" visible="false" />
+      <Button layoutX="128.0" layoutY="57.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="1268.0" visible="false" />
+      <TextField fx:id="userInput" layoutX="128.0" layoutY="260.0" prefHeight="74.0" prefWidth="1075.0" visible="false" />
+      <Button fx:id="startPracticeButton" layoutX="618.0" layoutY="280.0" mnemonicParsing="false" onAction="#startPracticeButtonClicked" prefHeight="74.0" prefWidth="288.0" text="Begin" visible="false">
+         <font>
+            <Font size="35.0" />
+         </font></Button>
+      <Label fx:id="highestStreakLabel" layoutX="316.0" layoutY="473.0" prefHeight="38.0" prefWidth="223.0" text="Highest Streak (This session): 0" visible="false" />
+      <Button fx:id="returnToPracticeOptionsButton" layoutX="393.0" layoutY="630.0" mnemonicParsing="false" onAction="#returnToPracticeOptionsButtonClicked" prefHeight="102.0" prefWidth="737.0" text="Return to practice mode options" visible="false" >
+              <font>
+                 <Font size = "22.0" name = "Arial Bold"></Font>
+              </font>
+      </Button>
+      <Button fx:id="returnToMenuButton" layoutX="393.0" layoutY="732.0" mnemonicParsing="false" onAction="#returnButtonClicked" prefHeight="102.0" prefWidth="737.0" text="Return to menu" visible="false" >
+      <font>
+         <Font size="22.0" name="Arial Bold"/>
+      </font>
+      </Button>
+      <Label fx:id="streak" layoutX="316.0" layoutY="438.0" prefHeight="38.0" prefWidth="320.0" text="Current Streak: 0" visible="false" />
+      <Label fx:id="currentQuestion" alignment="CENTER" layoutX="128.0" layoutY="56.0" prefHeight="110.0" prefWidth="1268.0" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Button fx:id="questionButton" layoutX="128.0" layoutY="140.0" mnemonicParsing="false" prefHeight="110.0" prefWidth="1268.0" visible="false">
+      <font>
+         <Font size="18.0" />
+      </font>
+      </Button>
+      <Button fx:id="submitButton" layoutX="1203.0 " layoutY="260.0" mnemonicParsing="false" onAction="#submitButtonClicked" prefHeight="74.0" prefWidth="195.0" text="Submit" visible="false">
+         <font>
+            <Font name = "Arial Bold" size="31.0" />
+         </font>
+      </Button>
+      <Label fx:id="currentLevelLabel" layoutX="316.0" layoutY="521.0" text="Current Level: " visible="false" />
+      <AnchorPane fx:id="newLevelPane" layoutX="568.0" layoutY="196.0" prefHeight="118.0" prefWidth="386.0" style="-fx-border-color: black; -fx-background-color: white;">
+         <children>
+            <Label fx:id="newLevelLabel" layoutX="21.0" layoutY="14.0" prefHeight="62.0" prefWidth="344.0" text="Select from the following options and then practice for as long as you'd like without worrying about lives." textAlignment="CENTER" wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="startButton" onAction="#startButtonClicked" layoutX="111.0" layoutY="76.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="161.0" text="Okay" >
+            <font>
+               <Font name="Arial Bold" size="19.0" />
+            </font>
+            </Button>
+         </children>
+      </AnchorPane>
+
+      <Button fx:id="accent1Button" layoutX="570.0" layoutY="457.0" mnemonicParsing="false" onAction="#accent1ButtonClicked" prefHeight="46.0" prefWidth="48.0" text="á" visible="false" />
+      <Button fx:id="accent2Button" layoutX="650.0" layoutY="457.0" mnemonicParsing="false" onAction="#accent2ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="é" visible="false" />
+      <Button fx:id="accent3Button" layoutX="730.0" layoutY="457.0" mnemonicParsing="false" onAction="#accent3ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="í" visible="false" />
+      <Button fx:id="accent4Button" layoutX="810.0" layoutY="457.0" mnemonicParsing="false" onAction="#accent4ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="ó" visible="false" />
+      <Button fx:id="accent5Button" layoutX="610.0" layoutY="521.0" mnemonicParsing="false" onAction="#accent5ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="ú" visible="false" />
+      <Button fx:id="accent6Button" layoutX="690.0" layoutY="521.0" mnemonicParsing="false" onAction="#accent6ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="ü" visible="false" />
+      <Button fx:id="accent7Button" layoutX="770.0" layoutY="521.0" mnemonicParsing="false" onAction="#accent7ButtonClicked" prefHeight="46.0" prefWidth="52.0" text="ñ" visible="false" />
+   </children>
+</AnchorPane>

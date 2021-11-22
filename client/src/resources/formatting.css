@@ -1,0 +1,207 @@
+#anchorPane {
+    -fx-background-color: #D3D3D3;
+    -fx-background-image: url("background-3185765_1920.jpg");
+}
+#gridPane {
+    -fx-background-color: #D3D3D3;
+    -fx-background-image: url("background-3185765_1920.jpg");
+}
+#loginButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#vocabularyAndGrammarButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#practiceButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#beginEndlessButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#returnToMenuButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#returnToPracticeOptionsButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#achievementsReturnToMenuButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#leaderboardsReturnToMenuButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#practiceReturnToMenuButton{
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#vocabularyReturnToMenuButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#backButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#settingsButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#highestEndlessScoreButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#highestEndlessLevelButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#totalEndlessScoreButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#level1Button {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#level2Button {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#level3Button {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#level4Button {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#level5Button {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#generalButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#okayButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#beginPracticeModeButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#quitButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+/*#aButton, #áButton, #bButton, #cButton, #dButton, #eButton, #éButton, #fButton, #gButton, #hButton, #iButton, #íButton, #jButton, #kButton, #lButton, #mButton, #nButton, #ñButton, #oButton, #óButton, #pButton, #qButton, #rButton, #sButton, #tButton, #uButton, #úButton, #üButton, #vButton, #wButton, #xButton, #yButton, #zButton {*/
+/*    -fx-background-color: #A9A9A9;*/
+/*    -color: #FFFFFF;*/
+/*    -fx-border-color: #000000;*/
+/*}*/
+#accent1Button, #accent2Button, #accent3Button, #accent4Button, #accent5Button, #accent6Button, #accent7Button, #accent8Button, #accent9Button, #accent10Button, #accent11Button, #accent12Button, #accent13Button, #accent14Button {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#vocabularyButton, #conjugationsButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#continueButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#submitButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#startButton, #startEndlessButton, #startPracticeButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#skipToLevel2Button, #skipToLevel3Button, #skipToLevel4Button, #skipToLevel3BossButton, #skipToLevel4BossButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+
+#questionButton, #currentQuestion1, #currentQuestion2 {
+    -fx-background-color: #FFFFFF;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+    -fx-border-width: 3;
+}
+
+#createAccountButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#playMenuReturnButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#achievementsButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#loginButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#registerButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+#playButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}
+
+#leaderboardsButton {
+    -fx-background-color: #A9A9A9;
+    -color: #FFFFFF;
+    -fx-border-color: #000000;
+}

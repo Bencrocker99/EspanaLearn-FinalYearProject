@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane fx:id="gridPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1536.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.MainMenuHandler">
+
+    <children>
+        <Label prefHeight="95.0" prefWidth="212.0" />
+        <Button fx:id="vocabularyAndGrammarButton" onAction="#vocabularyAndGrammarButtonClick" layoutX="10.0" layoutY="28.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="123.0" prefWidth="1120.0" text="Vocabulary and Grammar" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="3">
+            <font>
+                <Font name="Arial Bold" size="40.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Button>
+        <Button fx:id="practiceButton" onAction="#practiceButtonClick" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="123.0" prefWidth="1120.0" text="Practice Mode" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="2">
+            <font>
+                <Font name="Arial Bold" size="40.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Button>
+        <Label layoutX="10.0" layoutY="10.0" prefHeight="120.0" prefWidth="246.0" GridPane.rowIndex="4" />
+        <Label layoutX="10.0" layoutY="28.0" prefHeight="92.0" prefWidth="245.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+        <Button fx:id="beginEndlessButton" onAction="#beginEndlessButtonClick" layoutX="220.0" layoutY="194.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="123.0" prefWidth="1120.0" text="Endless Mode" GridPane.columnIndex="1" GridPane.columnSpan="2" GridPane.rowIndex="1">
+            <font>
+                <Font name="Arial Bold" size="40.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Button>
+        <Button fx:id="playMenuReturnButton" onAction="#beginPlayMenuReturnButtonClick" layoutX="10.0" layoutY="10.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="123.0" prefWidth="1120.0" text="Back" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="5">
+            <font>
+                <Font name="Arial Bold" size="40.0" />
+            </font>
+            <opaqueInsets>
+                <Insets />
+            </opaqueInsets>
+        </Button>
+
+    </children>
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+        <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+    </rowConstraints>
+
+
+</GridPane>

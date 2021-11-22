@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.BossMode3Handler">
+   <children>
+       <Button fx:id="returnToMenuButton" layoutX="393.0" layoutY="732.0" mnemonicParsing="false" onAction="#returnButtonClicked" prefHeight="102.0" prefWidth="737.0" text="Return to menu" visible="false">
+               <font>
+                   <Font name="Arial Bold" size="22.0" />
+               </font>
+       </Button>
+       <Line fx:id="underscore1" endX="98.0" endY="100.0" startX="63.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore2" endX="144.5" endY="100.0" startX="110.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore3" endX="190.5" endY="100.0" startX="156.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore4" endX="237.0" endY="100.0" startX="203.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore5" endX="283.5" endY="100.0" startX="249.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore6" endX="330.0" endY="100.0" startX="296.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore7" endX="376.5" endY="100.0" startX="342.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore8" endX="423.0" endY="100.0" startX="389.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore9" endX="469.5" endY="100.0" startX="435.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore10" endX="516.0" endY="100.0" startX="482.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore11" endX="562.5" endY="100.0" startX="528.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore12" endX="609.0" endY="100.0" startX="575.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore13" endX="655.5" endY="100.0" startX="621.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore14" endX="702.0" endY="100.0" startX="668.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore15" endX="748.5" endY="100.0" startX="714.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore16" endX="795.0" endY="100.0" startX="761.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore17" endX="841.5" endY="100.0" startX="807.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore18" endX="888.0" endY="100.0" startX="854.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore19" endX="934.5" endY="100.0" startX="900.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore20" endX="981.0" endY="100.0" startX="947.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore21" endX="1027.5" endY="100.0" startX="993.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore22" endX="1074.0" endY="100.0" startX="1040.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore23" endX="1120.5" endY="100.0" startX="1086.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore24" endX="1167.0" endY="100.0" startX="1133.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore25" endX="1213.5" endY="100.0" startX="1179.5" startY="100.0" visible="false" />
+       <Line fx:id="underscore26" endX="1260.0" endY="100.0" startX="1226.0" startY="100.0" visible="false" />
+       <Line fx:id="underscore27" endX="1306.5" endY="100.0" startX="1272.5" startY="100.0" visible="false" />
+       <Label fx:id="character1" layoutX="70.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character2" layoutX="116.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character3" layoutX="163.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character4" layoutX="209.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character5" layoutX="256.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character6" layoutX="302.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character7" layoutX="349.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character8" layoutX="395.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character9" layoutX="442.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character10" layoutX="488.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character11" layoutX="535.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character12" layoutX="581.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character13" layoutX="628.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character14" layoutX="674.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character15" layoutX="721.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character16" layoutX="767.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character17" layoutX="814.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character18" layoutX="860.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character19" layoutX="907.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character20" layoutX="953.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character21" layoutX="1000.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character22" layoutX="1046.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character23" layoutX="1093.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character24" layoutX="1139.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character25" layoutX="1186.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character26" layoutX="1232.5" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+       <Label fx:id="character27" layoutX="1279.0" layoutY="60.0" prefHeight="34.0" prefWidth="35.0" text="" textAlignment="CENTER" visible="false">
+           <font>
+               <Font size="32.0" />
+           </font>
+       </Label>
+      <AnchorPane layoutX="5.0" layoutY="150.0" prefHeight="180.0" prefWidth="314.0">
+         <children>
+            <Label layoutX="17.0" layoutY="12.0" prefHeight="46.0" prefWidth="407.0" text="Incorrectly Guessed Letters:">
+               <font>
+                  <Font size="30.0" />
+               </font></Label>
+             <Label fx:id="guessedCharacter1" layoutX="25.0" layoutY="54.0" prefHeight="34.0" prefWidth="35.0" text="A" textAlignment="CENTER" visible="false">
+                 <font>
+                     <Font size="32.0" />
+                 </font>
+             </Label>
+             <Label fx:id="guessedCharacter2" layoutX="75.0" layoutY="54.0" prefHeight="34.0" prefWidth="35.0" text="A" textAlignment="CENTER" visible="false">
+                 <font>
+                     <Font size="32.0" />
+                 </font>
+             </Label>
+             <Label fx:id="guessedCharacter3" layoutX="125.0" layoutY="54.0" prefHeight="34.0" prefWidth="35.0" text="A" textAlignment="CENTER" visible="false">
+                 <font>
+                     <Font size="32.0" />
+                 </font>
+             </Label>
+             <Label fx:id="guessedCharacter4" layoutX="175.0" layoutY="54.0" prefHeight="34.0" prefWidth="35.0" text="A" textAlignment="CENTER" visible="false">
+                 <font>
+                     <Font size="32.0" />
+                 </font>
+             </Label>
+             <Label fx:id="guessedCharacter5" layoutX="25.0" layoutY="104.0" prefHeight="34.0" prefWidth="35.0" text="A" textAlignment="CENTER" visible="false">
+                 <font>
+                     <Font size="32.0" />
+                 </font>
+             </Label>
+             <Label fx:id="guessedCharacter6" layoutX="75.0" layoutY="104.0" prefHeight="34.0" prefWidth="35.0" text="A" textAlignment="CENTER" visible="false">
+                 <font>
+                     <Font size="32.0" />
+                 </font>
+             </Label>
+             <Label fx:id="guessedCharacter7" layoutX="125.0" layoutY="104.0" prefHeight="34.0" prefWidth="35.0" text="A" textAlignment="CENTER" visible="false">
+                 <font>
+                     <Font size="32.0" />
+                 </font>
+             </Label>
+             <Label fx:id="guessedCharacter8" layoutX="175.0" layoutY="104.0" prefHeight="34.0" prefWidth="35.0" text="A" textAlignment="CENTER" visible="false">
+                 <font>
+                     <Font size="32.0" />
+                 </font>
+             </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="27.0" layoutY="370.0" prefHeight="384.0" prefWidth="1488.0">
+         <children>
+             <Label layoutY="14.0" prefHeight="40.0" prefWidth="263.0" text="Remaining Letters:">
+                 <font>
+                     <Font size="30.0" />
+                 </font></Label>
+            <Button fx:id="aButton" layoutX="14.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#aButtonClicked" prefHeight="46.0" prefWidth="56.0" text="a">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Button>
+             <Button fx:id="áButton" layoutX="94.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#áButtonClicked" prefHeight="46.0" prefWidth="56.0" text="á">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="bButton" layoutX="174.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#bButtonClicked" prefHeight="46.0" prefWidth="56.0" text="b">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="cButton" layoutX="254.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#cButtonClicked" prefHeight="46.0" prefWidth="56.0" text="c">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="dButton" layoutX="334.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#dButtonClicked" prefHeight="46.0" prefWidth="56.0" text="d">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="eButton" layoutX="414.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#eButtonClicked" prefHeight="46.0" prefWidth="56.0" text="e">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="éButton" layoutX="494.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#éButtonClicked" prefHeight="46.0" prefWidth="56.0" text="é">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="fButton" layoutX="574.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#fButtonClicked" prefHeight="46.0" prefWidth="56.0" text="f">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="gButton" layoutX="654.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#gButtonClicked" prefHeight="46.0" prefWidth="56.0" text="g">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="hButton" layoutX="734.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#hButtonClicked" prefHeight="46.0" prefWidth="56.0" text="h">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="iButton" layoutX="814.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#iButtonClicked" prefHeight="46.0" prefWidth="56.0" text="i">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="íButton" layoutX="894.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#íButtonClicked" prefHeight="46.0" prefWidth="56.0" text="í">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="jButton" layoutX="974.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#jButtonClicked" prefHeight="46.0" prefWidth="56.0" text="j">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="kButton" layoutX="1054.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#kButtonClicked" prefHeight="46.0" prefWidth="56.0" text="k">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="lButton" layoutX="1134.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#lButtonClicked" prefHeight="46.0" prefWidth="56.0" text="l">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="mButton" layoutX="1214.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#mButtonClicked" prefHeight="66.0" prefWidth="56.0" text="m">
+                 <font>
+                     <Font size="25.4" />
+                 </font>
+             </Button>
+             <Button fx:id="nButton" layoutX="1294.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#nButtonClicked" prefHeight="46.0" prefWidth="56.0" text="n">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="ñButton" layoutX="1374.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#ñButtonClicked" prefHeight="46.0" prefWidth="56.0" text="ñ">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="oButton" layoutX="14.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#oButtonClicked" prefHeight="46.0" prefWidth="56.0" text="o">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="óButton" layoutX="94.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#óButtonClicked" prefHeight="46.0" prefWidth="56.0" text="ó">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="pButton" layoutX="174.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#pButtonClicked" prefHeight="46.0" prefWidth="56.0" text="p">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="qButton" layoutX="254.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#qButtonClicked" prefHeight="46.0" prefWidth="56.0" text="q">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="rButton" layoutX="334.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#rButtonClicked" prefHeight="46.0" prefWidth="56.0" text="r">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="sButton" layoutX="414.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#sButtonClicked" prefHeight="46.0" prefWidth="56.0" text="s">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="tButton" layoutX="494.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#tButtonClicked" prefHeight="46.0" prefWidth="56.0" text="t">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="uButton" layoutX="574.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#uButtonClicked" prefHeight="46.0" prefWidth="56.0" text="u">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="úButton" layoutX="654.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#úButtonClicked" prefHeight="46.0" prefWidth="56.0" text="ú">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="üButton" layoutX="734.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#üButtonClicked" prefHeight="46.0" prefWidth="56.0" text="ü">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="vButton" layoutX="814.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#vButtonClicked" prefHeight="46.0" prefWidth="56.0" text="v">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="wButton" layoutX="894.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#wButtonClicked" prefHeight="66.0" prefWidth="56.0" text="w">
+                 <font>
+                     <Font size="25.4" />
+                 </font>
+             </Button>
+             <Button layoutX="974.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#xButtonClicked" prefHeight="46.0" prefWidth="56.0" text="x" fx:id="xButton">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="yButton" layoutX="1054.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#yButtonClicked" prefHeight="46.0" prefWidth="56.0" text="y">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+             <Button fx:id="zButton" layoutX="1134.0" layoutY="175.0" mnemonicParsing="false" onMouseClicked="#zButtonClicked" prefHeight="46.0" prefWidth="56.0" text="z">
+                 <font>
+                     <Font size="30.0" />
+                 </font>
+             </Button>
+
+         </children></AnchorPane>
+      <Line fx:id="hangmanBorderLine3" endX="1267.699951171875" endY="60.000003814697266" startX="1486.5999755859375" startY="60.000003814697266" visible="false" />
+      <Line fx:id="hangmanBorderLine2" endX="1487.0999755859375" endY="60.000003814697266" startX="1487.0999755859375" startY="377.20001220703125" visible="false" />
+      <Line fx:id="hangmanBorderLine1" endX="1177.5999755859375" endY="377.20001220703125" startX="1514.5999755859375" startY="377.20001220703125" visible="false" />
+      <Line fx:id="hangmanRopeLine" endX="1314.699951171875" endY="96.19999694824219" layoutX="-47.0" layoutY="11.0" startX="1314.199951171875" startY="49.000003814697266" visible="false" />
+      <Ellipse fx:id="hangmanEllipse" fill="WHITE" layoutX="1267.0" layoutY="131.0" radiusX="24.0" radiusY="24.0" stroke="BLACK" strokeType="INSIDE" visible="false" />
+      <Line fx:id="hangmanTorsoLine" endX="1267.0" endY="260.20001220703125" startX="1267.0" startY="155.0" visible="false" />
+      <Line fx:id="hangmanArmLine1" endX="1266.5" endY="201.2" startX="1222.6" startY="168.2" visible="false" />
+       <Line fx:id="hangmanArmLine2" endX="1266.5" endY="201.2" startX="1310.4" startY="168.2" visible="false" />
+      <Line fx:id="hangmanLegLine1" endX="1227.2" endY="315.6000061035156" startX="1266.5" startY="260.70001220703125" visible="false" />
+       <Line fx:id="hangmanLegLine2" endX="1305.8" endY="315.6000061035156" startX="1266.5" startY="260.70001220703125" visible="false" />
+       <AnchorPane fx:id="newLevelPane" layoutX="568.0" layoutY="196.0" prefHeight="167.0" prefWidth="386.0" style="-fx-border-color: black; -fx-background-color: white;">
+           <children>
+               <Label fx:id="newLevelLabel" layoutX="7.0" layoutY="14.0" prefHeight="62.0" prefWidth="375.0" text="Click the letters to guess the Spanish word before the hangman gets fully drawn." textAlignment="CENTER" wrapText="true">
+                   <font>
+                       <Font size="13.0" />
+                   </font>
+               </Label>
+               <Button fx:id="continueButton" layoutX="78.0" layoutY="71.0" mnemonicParsing="false" onAction="#continueButtonClicked" prefHeight="26.0" prefWidth="207.0" text="Continue">
+                   <font>
+                       <Font name="Arial Bold" size="35.0" />
+                   </font>
+               </Button>
+           </children>
+       </AnchorPane>
+
+
+
+   </children>
+</AnchorPane>

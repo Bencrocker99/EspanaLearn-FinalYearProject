@@ -1,0 +1,205 @@
+{
+
+  "achievements": [
+    {
+      "achievementName": "1achievement1",
+      "levelNumber": "1",
+      "achievementNumber": "1",
+      "achievementDescription": "Beat level 1 in endless mode 20 times.",
+      "experiencePoints": "100",
+      "numberOfTimes": "20"
+    },
+    {
+      "achievementName": "1achievement2",
+      "levelNumber": "1",
+      "achievementNumber": "2",
+      "achievementDescription": "Correctly answer boss level 1 10 times in endless mode.",
+      "experiencePoints": "50",
+      "numberOfTimes": "10"
+    },
+    {
+      "achievementName": "1achievement3",
+      "levelNumber": "1",
+      "achievementNumber": "3",
+      "achievementDescription": "Get a streak of 15 with only level 1 in practice mode.",
+      "experiencePoints": "150",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "1achievement4",
+      "levelNumber": "1",
+      "achievementNumber": "4",
+      "achievementDescription": "Get a streak of 5 with only level 1 boss in practice mode.",
+      "experiencePoints": "200",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "1achievement5",
+      "levelNumber": "1",
+      "achievementNumber": "5",
+      "achievementDescription": "Complete all other level 1 achievements (unlocks level 1 skip)",
+      "experiencePoints": "0",
+      "numberOfTimes": "4"
+    },
+    {
+      "achievementName": "2achievement1",
+      "levelNumber": "2",
+      "achievementNumber": "1",
+      "achievementDescription": "Beat level 2 in endless mode 20 times.",
+      "experiencePoints": "150",
+      "numberOfTimes": "20"
+    },
+    {
+      "achievementName": "2achievement2",
+      "levelNumber": "2",
+      "achievementNumber": "2",
+      "achievementDescription": "Get a streak of 10 with only level 2 English To Spanish in practice mode.",
+      "experiencePoints": "150",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "2achievement3",
+      "levelNumber": "2",
+      "achievementNumber": "3",
+      "achievementDescription": "Correctly answer boss level 2 with at least 10 seconds left on the timer",
+      "experiencePoints": "150",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "2achievement4",
+      "levelNumber": "2",
+      "achievementNumber": "4",
+      "achievementDescription": "Get both questions correct in boss level 2 15 times in endless mode.",
+      "experiencePoints": "200",
+      "numberOfTimes": "15"
+    },
+    {
+      "achievementName": "2achievement5",
+      "levelNumber": "2",
+      "achievementNumber": "5",
+      "achievementDescription": "Complete all other level 2 achievements (unlocks level 2 skip)",
+      "experiencePoints": "0",
+      "numberOfTimes": "4"
+    },
+    {
+      "achievementName": "3achievement1",
+      "levelNumber": "3",
+      "achievementNumber": "1",
+      "achievementDescription": "Beat level 3 in endless mode 20 times.",
+      "experiencePoints": "200",
+      "numberOfTimes": "20"
+    },
+    {
+      "achievementName": "3achievement2",
+      "levelNumber": "3",
+      "achievementNumber": "2",
+      "achievementDescription": "Beat level 3 boss with less than 5 incorrect guesses.",
+      "experiencePoints": "200",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "3achievement3",
+      "levelNumber": "3",
+      "achievementNumber": "3",
+      "achievementDescription": "Get a streak of 10 with only level 3 in practice mode 5 times.",
+      "experiencePoints": "200",
+      "numberOfTimes": "5"
+    },
+    {
+      "achievementName": "3achievement4",
+      "levelNumber": "3",
+      "achievementNumber": "4",
+      "achievementDescription": "Get a streak of 5 with only level 3 boss in practice mode 5 times.",
+      "experiencePoints": "200",
+      "numberOfTimes": "5"
+    },
+    {
+      "achievementName": "3achievement5",
+      "levelNumber": "3",
+      "achievementNumber": "5",
+      "achievementDescription": "Complete all other level 3 achievements (unlocks level 3 skip)",
+      "experiencePoints": "200",
+      "numberOfTimes": "4"
+    },
+    {
+      "achievementName": "4achievement1",
+      "levelNumber": "4",
+      "achievementNumber": "1",
+      "achievementDescription": "Beat boss level 4 with over half the time left 3 times.",
+      "experiencePoints": "200",
+      "numberOfTimes": "3"
+    },
+    {
+      "achievementName": "4achievement2",
+      "levelNumber": "4",
+      "achievementNumber": "2",
+      "achievementDescription": "Beat boss level 4 30 times.",
+      "experiencePoints": "200",
+      "numberOfTimes": "30"
+    },
+    {
+      "achievementName": "4achievement3",
+      "levelNumber": "4",
+      "achievementNumber": "3",
+      "achievementDescription": "Get a streak of 25 with only level 4 in practice mode.",
+      "experiencePoints": "200",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "4achievement4",
+      "levelNumber": "4",
+      "achievementNumber": "4",
+      "achievementDescription": "Get a streak of 5 with only level 4 in practice mode 10 times.",
+      "experiencePoints": "200",
+      "numberOfTimes": "10"
+    },
+    {
+      "achievementName": "4achievement5",
+      "levelNumber": "4",
+      "achievementNumber": "5",
+      "achievementDescription": "Complete all other level 4 achievements (unlocks level 4 skip)",
+      "experiencePoints": "200",
+      "numberOfTimes": "4"
+    },
+    {
+      "achievementName": "0achievement1",
+      "levelNumber": "0",
+      "achievementNumber": "1",
+      "achievementDescription": "Reach a score of 5 in endless mode",
+      "experiencePoints": "200",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "0achievement2",
+      "levelNumber": "0",
+      "achievementNumber": "2",
+      "achievementDescription": "Reach a score of 10 in endless mode",
+      "experiencePoints": "200",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "0achievement3",
+      "levelNumber": "0",
+      "achievementNumber": "3",
+      "achievementDescription": "Reach a score of 25 in endless mode",
+      "experiencePoints": "200",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "0achievement4",
+      "levelNumber": "0",
+      "achievementNumber": "4",
+      "achievementDescription": "Reach a score of 50 in endless mode",
+      "experiencePoints": "200",
+      "numberOfTimes": "1"
+    },
+    {
+      "achievementName": "0achievement5",
+      "levelNumber": "0",
+      "achievementNumber": "5",
+      "achievementDescription": "Reach a score of 100 in endless mode",
+      "experiencePoints": "200",
+      "numberOfTimes": "1"
+    }
+  ]
+  }

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.BossMode4Handler">
+    <children>
+
+        <Button fx:id="returnToMenuButton" layoutX="393.0" layoutY="732.0" mnemonicParsing="false" onAction="#returnButtonClicked" prefHeight="102.0" prefWidth="737.0" text="Return to menu" visible="false" >
+                <font>
+        <Font name="Arial Bold" size="16.0" />
+        </font>
+        </Button>
+
+    <ImageView fx:id="timerImage" fitHeight="96.0" fitWidth="54.0" layoutX="1455.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" visible="false">
+        <image>
+            <Image url="@../resources/timer.png" />
+        </image>
+    </ImageView>
+    <Label fx:id="remainingTime" alignment="CENTER_RIGHT" layoutX="1295.0" layoutY="-3.0" prefHeight="118.0" prefWidth="145.0" text="20" visible="false">
+        <font>
+            <Font size="68.0" />
+        </font>
+    </Label>
+      <Line endX="138.7" endY="119.2" startX="138.7" startY="681.2" />
+      <Line endX="638.2" endY="87.7" layoutX="63.0" layoutY="31.0" startX="76.2" startY="87.7" />
+      <Line endX="701.7" endY="681.0" startX="701.7" startY="119.12" />
+      <Line endX="138.2" endY="681.7" startX="701.0" startY="681.7" />
+      <Label fx:id="row1Column1" alignment="CENTER" layoutX="139.0" layoutY="119.0" onMouseClicked="#row1Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font size="38.0" />
+            <Font size="38.0" />
+         </font></Label>
+        <Label fx:id="row10Column10" alignment="CENTER" layoutX="644.0" layoutY="628.0" onMouseClicked="#row10Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row10Column9" alignment="CENTER" layoutX="591.0" layoutY="628.0" onMouseClicked="#row10Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row10Column8" alignment="CENTER" layoutX="534.0" layoutY="628.0" onMouseClicked="#row10Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row10Column7" alignment="CENTER" layoutX="477.0" layoutY="628.0" onMouseClicked="#row10Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row10Column6" alignment="CENTER" layoutX="420.0" layoutY="628.0" onMouseClicked="#row10Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row10Column5" alignment="CENTER" layoutX="367.0" layoutY="628.0" onMouseClicked="#row10Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row10Column4" alignment="CENTER" layoutX="310.0" layoutY="628.0" onMouseClicked="#row10Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row10Column3" alignment="CENTER" layoutX="253.0" layoutY="628.0" onMouseClicked="#row10Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row10Column2" alignment="CENTER" layoutX="196.0" layoutY="628.0" onMouseClicked="#row10Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column10" alignment="CENTER" layoutX="644.0" layoutY="571.0" onMouseClicked="#row9Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column9" alignment="CENTER" layoutX="591.0" layoutY="571.0" onMouseClicked="#row9Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column8" alignment="CENTER" layoutX="534.0" layoutY="571.0" onMouseClicked="#row9Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column7" alignment="CENTER" layoutX="477.0" layoutY="571.0" onMouseClicked="#row9Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column6" alignment="CENTER" layoutX="420.0" layoutY="571.0" onMouseClicked="#row9Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column5" alignment="CENTER" layoutX="367.0" layoutY="571.0" onMouseClicked="#row9Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column4" alignment="CENTER" layoutX="310.0" layoutY="571.0" onMouseClicked="#row9Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column3" alignment="CENTER" layoutX="253.0" layoutY="571.0" onMouseClicked="#row9Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column2" alignment="CENTER" layoutX="196.0" layoutY="571.0" onMouseClicked="#row9Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column10" alignment="CENTER" layoutX="644.0" layoutY="514.0" onMouseClicked="#row8Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column9" alignment="CENTER" layoutX="591.0" layoutY="514.0" onMouseClicked="#row8Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column8" alignment="CENTER" layoutX="534.0" layoutY="514.0" onMouseClicked="#row8Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column7" alignment="CENTER" layoutX="477.0" layoutY="514.0" onMouseClicked="#row8Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column6" alignment="CENTER" layoutX="420.0" layoutY="514.0" onMouseClicked="#row8Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column5" alignment="CENTER" layoutX="367.0" layoutY="514.0" onMouseClicked="#row8Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column4" alignment="CENTER" layoutX="310.0" layoutY="514.0" onMouseClicked="#row8Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column3" alignment="CENTER" layoutX="253.0" layoutY="514.0" onMouseClicked="#row8Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column2" alignment="CENTER" layoutX="196.0" layoutY="514.0" onMouseClicked="#row8Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column10" alignment="CENTER" layoutX="644.0" layoutY="457.0" onMouseClicked="#row7Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column9" alignment="CENTER" layoutX="591.0" layoutY="457.0" onMouseClicked="#row7Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column8" alignment="CENTER" layoutX="534.0" layoutY="457.0" onMouseClicked="#row7Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column7" alignment="CENTER" layoutX="477.0" layoutY="457.0" onMouseClicked="#row7Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column6" alignment="CENTER" layoutX="420.0" layoutY="457.0" onMouseClicked="#row7Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column5" alignment="CENTER" layoutX="367.0" layoutY="457.0" onMouseClicked="#row7Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column4" alignment="CENTER" layoutX="310.0" layoutY="457.0" onMouseClicked="#row7Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column3" alignment="CENTER" layoutX="253.0" layoutY="457.0" onMouseClicked="#row7Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column2" alignment="CENTER" layoutX="196.0" layoutY="457.0" onMouseClicked="#row7Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column10" alignment="CENTER" layoutX="644.0" layoutY="400.0" onMouseClicked="#row6Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column9" alignment="CENTER" layoutX="591.0" layoutY="400.0" onMouseClicked="#row6Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column8" alignment="CENTER" layoutX="534.0" layoutY="400.0" onMouseClicked="#row6Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column7" alignment="CENTER" layoutX="477.0" layoutY="400.0" onMouseClicked="#row6Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column6" alignment="CENTER" layoutX="420.0" layoutY="400.0" onMouseClicked="#row6Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column5" alignment="CENTER" layoutX="367.0" layoutY="400.0" onMouseClicked="#row6Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column4" alignment="CENTER" layoutX="310.0" layoutY="400.0" onMouseClicked="#row6Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column3" alignment="CENTER" layoutX="253.0" layoutY="400.0" onMouseClicked="#row6Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column2" alignment="CENTER" layoutX="196.0" layoutY="400.0" onMouseClicked="#row6Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column10" alignment="CENTER" layoutX="644.0" layoutY="347.0" onMouseClicked="#row5Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column9" alignment="CENTER" layoutX="591.0" layoutY="347.0" onMouseClicked="#row5Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column8" alignment="CENTER" layoutX="534.0" layoutY="347.0" onMouseClicked="#row5Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column7" alignment="CENTER" layoutX="477.0" layoutY="347.0" onMouseClicked="#row5Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column6" alignment="CENTER" layoutX="420.0" layoutY="347.0" onMouseClicked="#row5Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column5" alignment="CENTER" layoutX="367.0" layoutY="347.0" onMouseClicked="#row5Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column4" alignment="CENTER" layoutX="310.0" layoutY="347.0" onMouseClicked="#row5Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column3" alignment="CENTER" layoutX="253.0" layoutY="347.0" onMouseClicked="#row5Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column2" alignment="CENTER" layoutX="196.0" layoutY="347.0" onMouseClicked="#row5Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column10" alignment="CENTER" layoutX="644.0" layoutY="290.0" onMouseClicked="#row4Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column9" alignment="CENTER" layoutX="591.0" layoutY="290.0" onMouseClicked="#row4Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column8" alignment="CENTER" layoutX="534.0" layoutY="290.0" onMouseClicked="#row4Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column7" alignment="CENTER" layoutX="477.0" layoutY="290.0" onMouseClicked="#row4Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column6" alignment="CENTER" layoutX="420.0" layoutY="290.0" onMouseClicked="#row4Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column5" alignment="CENTER" layoutX="367.0" layoutY="290.0" onMouseClicked="#row4Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column4" alignment="CENTER" layoutX="310.0" layoutY="290.0" onMouseClicked="#row4Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column3" alignment="CENTER" layoutX="253.0" layoutY="290.0" onMouseClicked="#row4Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column2" alignment="CENTER" layoutX="196.0" layoutY="290.0" onMouseClicked="#row4Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column10" alignment="CENTER" layoutX="644.0" layoutY="233.0" onMouseClicked="#row3Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column9" alignment="CENTER" layoutX="591.0" layoutY="233.0" onMouseClicked="#row3Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column8" alignment="CENTER" layoutX="534.0" layoutY="233.0" onMouseClicked="#row3Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column7" alignment="CENTER" layoutX="477.0" layoutY="233.0" onMouseClicked="#row3Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column6" alignment="CENTER" layoutX="420.0" layoutY="233.0" onMouseClicked="#row3Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column5" alignment="CENTER" layoutX="367.0" layoutY="233.0" onMouseClicked="#row3Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column4" alignment="CENTER" layoutX="310.0" layoutY="233.0" onMouseClicked="#row3Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column3" alignment="CENTER" layoutX="253.0" layoutY="233.0" onMouseClicked="#row3Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column2" alignment="CENTER" layoutX="196.0" layoutY="233.0" onMouseClicked="#row3Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column10" alignment="CENTER" layoutX="644.0" layoutY="176.0" onMouseClicked="#row2Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column9" alignment="CENTER" layoutX="591.0" layoutY="176.0" onMouseClicked="#row2Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column8" alignment="CENTER" layoutX="534.0" layoutY="176.0" onMouseClicked="#row2Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column7" alignment="CENTER" layoutX="477.0" layoutY="176.0" onMouseClicked="#row2Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column6" alignment="CENTER" layoutX="420.0" layoutY="176.0" onMouseClicked="#row2Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column5" alignment="CENTER" layoutX="367.0" layoutY="176.0" onMouseClicked="#row2Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column4" alignment="CENTER" layoutX="310.0" layoutY="176.0" onMouseClicked="#row2Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column3" alignment="CENTER" layoutX="253.0" layoutY="176.0" onMouseClicked="#row2Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column2" alignment="CENTER" layoutX="196.0" layoutY="176.0" onMouseClicked="#row2Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row10Column1" alignment="CENTER" layoutX="139.0" layoutY="628.0" onMouseClicked="#row10Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row9Column1" alignment="CENTER" layoutX="139.0" layoutY="571.0" onMouseClicked="#row9Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row8Column1" alignment="CENTER" layoutX="139.0" layoutY="514.0" onMouseClicked="#row8Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row7Column1" alignment="CENTER" layoutX="139.0" layoutY="457.0" onMouseClicked="#row7Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row6Column1" alignment="CENTER" layoutX="139.0" layoutY="400.0" onMouseClicked="#row6Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row1Column4" alignment="CENTER" layoutX="310.0" layoutY="119.0" onMouseClicked="#row1Column4Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row1Column3" alignment="CENTER" layoutX="253.0" layoutY="119.0" onMouseClicked="#row1Column3Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row1Column2" alignment="CENTER" layoutX="196.0" layoutY="119.0" onMouseClicked="#row1Column2Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row5Column1" alignment="CENTER" layoutX="139.0" layoutY="347.0" onMouseClicked="#row5Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row4Column1" alignment="CENTER" layoutX="139.0" layoutY="290.0" onMouseClicked="#row4Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row3Column1" alignment="CENTER" layoutX="139.0" layoutY="233.0" onMouseClicked="#row3Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row2Column1" alignment="CENTER" layoutX="139.0" layoutY="176.0" onMouseClicked="#row2Column1Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row1Column10" alignment="CENTER" layoutX="644.0" layoutY="119.0" onMouseClicked="#row1Column10Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row1Column9" alignment="CENTER" layoutX="591.0" layoutY="119.0" onMouseClicked="#row1Column9Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row1Column8" alignment="CENTER" layoutX="534.0" layoutY="119.0" onMouseClicked="#row1Column8Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row1Column7" alignment="CENTER" layoutX="477.0" layoutY="119.0" onMouseClicked="#row1Column7Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row1Column6" alignment="CENTER" layoutX="420.0" layoutY="119.0" onMouseClicked="#row1Column6Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+        <Label fx:id="row1Column5" alignment="CENTER" layoutX="367.0" layoutY="119.0" onMouseClicked="#row1Column5Clicked" prefHeight="56.2" prefWidth="56.2" text="A" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="38.0" />
+            </font></Label>
+
+        <AnchorPane fx:id="newLevelPane" layoutX="568.0" layoutY="196.0" prefHeight="167.0" prefWidth="386.0" style="-fx-border-color: black; -fx-background-color: white;" visible="true">
+            <children>
+                <Label fx:id="newLevelLabel" layoutX="21.0" layoutY="14.0" prefHeight="79.0" prefWidth="344.0" text="Find the Spanish translations of all the words on the right within the grid in 150 seconds." textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+                </Label>
+                <Button fx:id="startButton" layoutX="81.0" layoutY="96.0" mnemonicParsing="false" onAction="#startButtonClicked" prefHeight="53.0" prefWidth="207.0" text="Begin">
+                    <font>
+                        <Font name="Arial Bold" size="24.0" />
+                    </font></Button>
+                <Button fx:id="okayButton" layoutX="81.0" layoutY="96.0" mnemonicParsing="false" onAction="#okayButtonClicked" prefHeight="53.0" prefWidth="207.0" text="Okay" visible="false">
+                    <font>
+                        <Font name="Arial Bold" size="24.0" />
+                    </font></Button>
+                <Button fx:id="loseButton" layoutX="81.0" layoutY="96.0" mnemonicParsing="false" onAction="#loseButtonClicked" prefHeight="53.0" prefWidth="207.0" text="Okay" visible="false">
+                    <font>
+                        <Font name="Arial Bold" size="24.0" />
+                    </font></Button>
+            </children>
+        </AnchorPane>
+      <Label fx:id="word1" alignment="CENTER" layoutX="761.0" layoutY="150.0" prefHeight="38.0" prefWidth="197.0" text="word1" textAlignment="CENTER" visible="false">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Label>
+        <Label fx:id="word2" alignment="CENTER" layoutX="1012.0" layoutY="150.0" prefHeight="38.0" prefWidth="197.0" text="word2" textAlignment="CENTER" visible="false">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label fx:id="word4" alignment="CENTER" layoutX="1012.0" layoutY="264.0" prefHeight="38.0" prefWidth="197.0" text="word4" textAlignment="CENTER" visible="false">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label fx:id="word3" alignment="CENTER" layoutX="761.0" layoutY="264.0" prefHeight="38.0" prefWidth="197.0" text="word3" textAlignment="CENTER" visible="false">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label fx:id="word6" alignment="CENTER" layoutX="1012.0" layoutY="378.0" prefHeight="38.0" prefWidth="197.0" text="word6" textAlignment="CENTER" visible="false">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label fx:id="word5" alignment="CENTER" layoutX="761.0" layoutY="378.0" prefHeight="38.0" prefWidth="197.0" text="word5" textAlignment="CENTER" visible="false">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label fx:id="word8" alignment="CENTER" layoutX="1012.0" layoutY="489.0" prefHeight="38.0" prefWidth="197.0" text="word8" textAlignment="CENTER" visible="false">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label fx:id="word7" alignment="CENTER" layoutX="761.0" layoutY="488.0" prefHeight="38.0" prefWidth="197.0" text="word7" textAlignment="CENTER" visible="false">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label fx:id="word10" alignment="CENTER" layoutX="1012.0" layoutY="602.0" prefHeight="38.0" prefWidth="197.0" text="word10" textAlignment="CENTER" visible="false">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label fx:id="word9" alignment="CENTER" layoutX="761.0" layoutY="602.0" prefHeight="38.0" prefWidth="197.0" text="word9" textAlignment="CENTER" visible="false">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+      <Line fx:id="line5" endX="654.5999755859375" endY="234.1999969482422" layoutX="303.0" layoutY="171.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+        <Line fx:id="line1" endX="654.5999755859375" endY="234.1999969482422" layoutX="303.0" layoutY="-57.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+        <Line fx:id="line4" endX="654.5999755859375" endY="234.1999969482422" layoutX="552.0" layoutY="56.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+        <Line fx:id="line3" endX="654.5999755859375" endY="234.1999969482422" layoutX="304.0" layoutY="56.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+        <Line fx:id="line2" endX="654.5999755859375" endY="234.1999969482422" layoutX="552.0" layoutY="-57.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+        <Line fx:id="line10" endX="654.5999755859375" endY="234.1999969482422" layoutX="550.0" layoutY="394.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+        <Line fx:id="line9" endX="654.5999755859375" endY="234.1999969482422" layoutX="301.0" layoutY="394.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+        <Line fx:id="line8" endX="654.5999755859375" endY="234.1999969482422" layoutX="552.0" layoutY="282.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+        <Line fx:id="line7" endX="654.5999755859375" endY="234.1999969482422" layoutX="303.0" layoutY="280.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+        <Line fx:id="line6" endX="654.5999755859375" endY="234.1999969482422" layoutX="551.0" layoutY="171.0" startX="462.79998779296875" startY="234.1999969482422" strokeWidth="3.0" visible="false" />
+
+
+
+
+    </children>
+
+</AnchorPane>

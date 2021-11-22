@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<?import javafx.geometry.Insets?>
+<AnchorPane fx:id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.SettingsHandler">
+   <children>
+      <Slider fx:id="soundSlider" layoutX="461.5" layoutY="190.0" majorTickUnit="0.05" max="1.0" minorTickCount="0" onMouseReleased="#soundSliderChanged" prefHeight="14.0" prefWidth="600.0" showTickMarks="true" snapToTicks="true" value="0.5" />
+      <Label alignment="CENTER" layoutX="461.5" prefHeight="73.0" prefWidth="600.0" text="Settings" textAlignment="CENTER">
+         <font>
+            <Font name="System Bold" size="44.0" />
+         </font></Label>
+       <Label alignment="CENTER" layoutX="461.5" layoutY="120" prefHeight="73.0" prefWidth="600.0" text="Sound Effects" textAlignment="CENTER">
+           <font>
+               <Font size="24.0" />
+           </font></Label>
+       <Button fx:id="returnToMenuButton" layoutX="546.5" layoutY="785.0" mnemonicParsing="false" onAction="#returnButtonClicked" prefHeight="43.0" prefWidth="430.0" text="Return to menu" visible="true" >
+       <font>
+           <Font name="Arial Bold" size="19.0" />
+       </font>
+       </Button>
+       <ImageView fx:id="muteIcon" fitHeight="80.0" fitWidth="100.0" layoutX="360.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@../resources/mute.png" />
+           </image></ImageView>
+       <ImageView fx:id="unmuteIcon" fitHeight="80.0" fitWidth="100.0" layoutX="1091.5" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+           <image>
+               <Image url="@../resources/unmute.png" />
+           </image></ImageView>
+       <Button fx:id="muteButton" layoutX="561.5" layoutY="240" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" text="Mute" visible="false">
+           <font>
+               <Font name="Arial Bold" size="24.0" />
+           </font>
+           <opaqueInsets>
+               <Insets />
+           </opaqueInsets>
+       </Button>
+   </children>
+</AnchorPane>

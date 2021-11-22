@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.AchievementsHandler">
+    <children>
+
+    <Button fx:id="achievementsReturnToMenuButton" layoutX="393.0" layoutY="747.0" mnemonicParsing="false" onAction="#achievementsReturnButtonClicked" prefHeight="102.0" prefWidth="737.0" text="Return to menu">
+         <font>
+            <Font name="Arial bold" size="30.0" />
+         </font>
+    </Button>
+
+      <Button fx:id="level1Button" layoutX="83.0" layoutY="25.0" mnemonicParsing="false" onAction="#level1ButtonClicked" prefHeight="78.0" prefWidth="200.0" text="Level 1">
+         <font>
+            <Font name="Arial bold" size="20.0" />
+         </font></Button>
+        <Button fx:id="level2Button" layoutX="313.0" layoutY="25.0" mnemonicParsing="false" onAction="#level2ButtonClicked" prefHeight="78.0" prefWidth="200.0" text="Level 2">
+         <font>
+            <Font name="Arial bold" size="20.0" />
+         </font></Button>
+        <Button fx:id="level3Button" layoutX="543.0" layoutY="25.0" mnemonicParsing="false" onAction="#level3ButtonClicked" prefHeight="78.0" prefWidth="200.0" text="Level 3">
+         <font>
+            <Font name="Arial bold" size="20.0" />
+         </font></Button>
+        <Button fx:id="level4Button" layoutX="773.0" layoutY="25.0" mnemonicParsing="false" onAction="#level4ButtonClicked" prefHeight="78.0" prefWidth="200.0" text="Level 4">
+         <font>
+            <Font name="Arial bold" size="20.0" />
+         </font></Button>
+        <Button fx:id="generalButton" layoutX="1233.0" layoutY="25.0" mnemonicParsing="false" onAction="#generalButtonClicked" prefHeight="78.0" prefWidth="200.0" text="General">
+         <font>
+            <Font name="Arial bold" size="20.0" />
+         </font></Button>
+
+
+        <ScrollPane fx:id="scrollPane" layoutX="26.0" layoutY="120.0" prefHeight="607.0" prefWidth="1468.0">
+            <content>
+                <AnchorPane fx:id="scrollAnchorPane" layoutX="26.0" layoutY="120.0" prefHeight="607.0" prefWidth="1468.0">
+               <children>
+                  <ProgressBar layoutX="68.0" layoutY="29.0" prefHeight="78.0" prefWidth="953.0" progress="0.64" visible="false"/>
+                  <Label alignment="CENTER" layoutX="20.0" prefHeight="131.0" prefWidth="1021.0" text="aaaaa" textAlignment="CENTER" visible="false">
+                     <font>
+                        <Font name="Arial bold" size="30.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="1277.0" prefHeight="131.0" prefWidth="131.0" text="✔" textFill="#45c239" visible="false">
+                     <font>
+                        <Font name="Arial bold" size="84.0" />
+                     </font></Label>
+                   <Label alignment="CENTER" layoutX="1021.0" prefHeight="131.0" prefWidth="260.0" text="0 / 20" visible="false">
+                       <font>
+                           <Font name="Arial bold" size="40.0" />
+                       </font></Label>
+               </children></AnchorPane>
+            </content>
+        </ScrollPane>
+    </children>
+</AnchorPane>

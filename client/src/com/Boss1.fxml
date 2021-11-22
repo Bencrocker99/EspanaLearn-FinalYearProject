@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" layoutY="0.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="864.0" prefWidth="1523.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.com.BossMode1Handler">
+   <children>
+      <Button fx:id="returnToMenuButton" layoutX="550.0" layoutY="785.0" mnemonicParsing="false" onAction="#returnButtonClicked" prefHeight="43.0" prefWidth="430.0" text="Return to menu" visible="true" >
+       <font>
+           <Font name="Arial Bold" size="16.0" />
+       </font>
+      </Button>
+       <Label fx:id="question1Label" alignment="CENTER" layoutX="250.0" layoutY="150.0" onMouseClicked="#question1LabelClicked" prefHeight="86.0" prefWidth="211.0" style="-fx-border-color: Black; -fx-background-color: White; -fx-border-width: 3" text="Question 1" textAlignment="JUSTIFY">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+       <Label fx:id="question2Label" alignment="CENTER" layoutX="250.0" layoutY="300.0" onMouseClicked="#question2LabelClicked" prefHeight="86.0" prefWidth="211.0" style="-fx-border-color: Black; -fx-background-color: White; -fx-border-width: 3" text="Question 2" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+       <Label fx:id="question3Label" alignment="CENTER" layoutX="250.0" layoutY="450.0" onMouseClicked="#question3LabelClicked" prefHeight="86.0" prefWidth="211.0" style="-fx-border-color: Black; -fx-background-color: White; -fx-border-width: 3" text="Question 3">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+       <Label fx:id="question4Label" alignment="CENTER" layoutX="250.0" layoutY="600.0" onMouseClicked="#question4LabelClicked" prefHeight="86.0" prefWidth="211.0" style="-fx-border-color: Black; -fx-background-color: White; -fx-border-width: 3" text="Question 4">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+       <Label fx:id="answer1Label" alignment="CENTER" layoutX="1050.0" layoutY="150.0" onMouseClicked="#answer1LabelClicked" prefHeight="86.0" prefWidth="211.0" style="-fx-border-color: Black; -fx-background-color: White; -fx-border-width: 3" text="Answer 1">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+       <Label fx:id="answer2Label" alignment="CENTER" layoutX="1050.0" layoutY="300.0" onMouseClicked="#answer2LabelClicked" prefHeight="86.0" prefWidth="211.0" style="-fx-border-color: Black; -fx-background-color: White; -fx-border-width: 3" text="Answer 2">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+       <Label fx:id="answer3Label" alignment="CENTER" layoutX="1050.0" layoutY="450.0" onMouseClicked="#answer3LabelClicked" prefHeight="86.0" prefWidth="211.0" style="-fx-border-color: Black; -fx-background-color: White; -fx-border-width: 3" text="Answer 3">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+       <Label fx:id="answer4Label" alignment="CENTER" layoutX="1050.0" layoutY="600.0" onMouseClicked="#answer4LabelClicked" prefHeight="86.0" prefWidth="211.0" style="-fx-border-color: Black; -fx-background-color: White; -fx-border-width: 3" text="Answer 4">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+       <Label fx:id="errorLabel" alignment="CENTER" layoutX="461.5" layoutY="80.0" prefHeight="86.0" prefWidth="600.0" text="Be sure to match every box on the left to an answer on the right." visible="false">
+           <font>
+               <Font size="16.0" />
+           </font></Label>
+      <Button fx:id="submitButton" layoutX="650.0" layoutY="701.0" mnemonicParsing="false" onMouseClicked="#submitButtonClicked" prefHeight="54.0" prefWidth="230.0" text="Submit">
+         <font>
+            <Font name="Arial bold" size="20.0" />
+         </font></Button>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="28.0" prefHeight="86.0" prefWidth="1523.0" text="Link the following phrases with their translations">
+         <font>
+            <Font name="System Bold" size="28.0" />
+         </font></Label>
+      <Line fx:id="question1Answer1" endX="1050" endY="193" startX="461" startY="193" visible="false" />
+      <Line fx:id="question2Answer2" endX="1050" endY="343" startX="461" startY="343" visible="false" />
+      <Line fx:id="question3Answer3" endX="1050" endY="493" startX="461" startY="493" visible="false" />
+      <Line fx:id="question4Answer4" endX="1050" endY="643" startX="461" startY="643" visible="false" />
+      <Line fx:id="question1Answer2" endX="1050" endY="343" startX="461" startY="193" visible="false" />
+      <Line fx:id="question1Answer3" endX="1050" endY="493" startX="461" startY="193" visible="false" />
+      <Line fx:id="question1Answer4" endX="1050" endY="643" startX="461" startY="193" visible="false" />
+      <Line fx:id="question2Answer1" endX="1050" endY="193" startX="461" startY="343" visible="false" />
+      <Line fx:id="question2Answer3" endX="1050" endY="493" startX="461" startY="343" visible="false" />
+      <Line fx:id="question2Answer4" endX="1050" endY="643" startX="461" startY="343" visible="false" />
+      <Line fx:id="question3Answer1" endX="1050" endY="193" startX="461" startY="493" visible="false" />
+      <Line fx:id="question3Answer2" endX="1050" endY="343" startX="461" startY="493" visible="false" />
+      <Line fx:id="question3Answer4" endX="1050" endY="643" startX="461" startY="493" visible="false" />
+      <Line fx:id="question4Answer1" endX="1050" endY="193" startX="461" startY="643" visible="false" />
+      <Line fx:id="question4Answer2" endX="1050" endY="343" startX="461" startY="643" visible="false" />
+      <Line fx:id="question4Answer3" endX="1050" endY="493" startX="461" startY="643" visible="false" />
+      <Line fx:id="border1" endX="174.0" endY="150.0" layoutX="76.0" startX="174.0" startY="236" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border2" endX="461" endY="150" startX="461" startY="236" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border3" endX="461" endY="150.0" startX="250" startY="150.0" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border4" endX="461" endY="236.0" startX="250" startY="236" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border5" endX="461" endY="386" startX="250" startY="386" stroke="#e5831b" strokeWidth="5.0" visible="false"  />
+      <Line fx:id="border6" endX="250" endY="386.0" startX="250" startY="300" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border7" endX="461" endY="300" startX="461" startY="386" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border8" endX="461" endY="300" startX="250" startY="300" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border9" endX="250" endY="536" startX="250" startY="450" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border10" endX="461" endY="536" startX="461" startY="450" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border11" endX="461" endY="536" startX="250" startY="536.0" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border12" endX="461" endY="450" startX="250" startY="450" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border13" endX="461" endY="600.0" startX="250" startY="600.0" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border14" endX="461" endY="686.0" startX="250.0" startY="686" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border15" endX="250" endY="686" startX="250" startY="600" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <Line fx:id="border16" endX="461" endY="686" startX="461" startY="600" stroke="#e5831b" strokeWidth="5.0" visible="false" />
+      <AnchorPane fx:id="newLevelPane" layoutX="568.0" layoutY="196.0" prefHeight="167.0" prefWidth="386.0" style="-fx-border-color: black; -fx-background-color: white;">
+         <children>
+            <Label fx:id="newLevelLabel" layoutX="21.0" layoutY="14.0" prefHeight="79.0" prefWidth="344.0" text="Link the Spanish phrases on the left with their translations on the right." textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+            </Label>
+            <Button fx:id="startButton" layoutX="81.0" layoutY="96.0" mnemonicParsing="false" onAction="#startButtonClicked" prefHeight="53.0" prefWidth="207.0" text="Begin">
+               <font>
+                  <Font name="Arial bold" size="24.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
